@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - 东莞市扬讯电子有限公司</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/公司图标.png" alt="扬讯电子" class="logo-img">
+                    <span class="logo-text">扬讯电子</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">首页</a></li>
+                    <li><a href="about.html" class="nav-link">关于扬讯</a></li>
+                    <li><a href="products.html" class="nav-link">产品展示</a></li>
+                    <li><a href="equipment.html" class="nav-link">设备概况</a></li>
+                    <li><a href="quality.html" class="nav-link">品质保证</a></li>
+                    <li><a href="contact.html" class="nav-link active">联系我们</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 页面标题 -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">联系我们</h1>
+                <p class="page-subtitle">优质的服务，从这里开始</p>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="company-location">
+            <div class="container">
+                <h2 class="section-title">联系方式</h2>
+                <div class="location-content" style="display: flex; justify-content: center; align-items: center; margin: 40px 0;">
+                    <img src="images/联系方式何先生：18688651529.png" alt="联系方式" style="max-width: 300px; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系信息 -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid" style="grid-template-columns: repeat(2, 1fr);">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>电话咨询</h3>
+                        <div class="contact-details">
+                            <p><strong>何先生：</strong>18688651529</p>
+                            <p><strong>公司电话：</strong>0769-81813527</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>邮箱联系</h3>
+                        <div class="contact-details">
+                            <p><strong>邮箱：</strong>dgzhuoyu@163.com</p>
+                            <p><strong>QQ：</strong>451666501</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>公司地址</h3>
+                        <div class="contact-details">
+                            <p><strong>地址：</strong>广东省东莞市石碣镇新风中路31号</p>
+                            <p><strong>邮编：</strong>523000</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>工作时间</h3>
+                        <div class="contact-details">
+                            <p><strong>周一至周五：</strong>8:00-18:00</p>
+                            <p><strong>周六：</strong>8:00-12:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系表单 -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-content">
+                    <div class="form-info">
+                        <h2>在线咨询</h2>
+                        <p>如果您有任何问题或需要了解更多产品信息，请填写以下表单，我们会尽快与您联系。</p>
+                        <div class="form-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>24小时内回复</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>专业技术支持</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>免费样品提供</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">姓名 *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">公司名称</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">联系电话 *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱地址</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="product">感兴趣的产品</label>
+                            <select id="product" name="product">
+                                <option value="">请选择产品类型</option>
+                                <option value="aluminum">铝合金数据线系列</option>
+                                <option value="molded">成型数据线系列</option>
+                                <option value="silicone">硅胶头&锌合金系列</option>
+                                <option value="smart">智能家居线束</option>
+                                <option value="motor">电机类线束</option>
+                                <option value="industrial">工业控制线束</option>
+                                <option value="communication">通信类线束</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">咨询内容 *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="请详细描述您的需求..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            发送咨询
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <p><i class="fas fa-phone"></i> 何先生：18688651529</p>
+                    <p><i class="fas fa-phone"></i> 0769-81813527</p>
+                    <p><i class="fas fa-envelope"></i> dgzhuoyu@163.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>公司地址</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 广东省东莞市石碣镇新风中路31号</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="products.html">产品展示</a></li>
+                        <li><a href="quality.html">品质保证</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 东莞市扬讯电子有限公司. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 图片查看器 -->
+    <div class="image-viewer" id="imageViewer">
+        <div class="viewer-content">
+            <span class="viewer-close">&times;</span>
+            <img src="" alt="" id="viewerImage">
+            <div class="viewer-caption" id="viewerCaption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
